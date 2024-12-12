@@ -1,4 +1,4 @@
-# ROBO-DOC
+# SYMPTOMS-DOCTOR
 Healthcare chatbot to predict Diseases based on patient symptoms.
 <br>
 <p align="center">
@@ -18,5 +18,5 @@ virtualenv venv
 python app.py
 
 
-Medical DataSet available !!
+Medical DataSet is available !!
 ---- 
