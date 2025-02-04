@@ -8,6 +8,10 @@ from spacy.lang.en.stop_words import STOP_WORDS
 import spacy
 import joblib
 from flask import Flask, render_template, request, session
+import nltk
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+
 
 app = Flask(__name__)
 
